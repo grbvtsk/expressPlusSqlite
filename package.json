@@ -1,0 +1,29 @@
+{
+  "name": "task-10-database",
+  "version": "1.0.0",
+  "description": "task-10-database wtih Sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "jest-chain": "^1.1.6",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-chain"
+    ]
+  }
+}
